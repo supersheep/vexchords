@@ -2,7 +2,7 @@
   "name": "vexchords",
   "version": "0.1.0",
   "description": "JavaScript Guitar Chord Generation Library",
-  "main": "./js/chart",
+  "main": "./js/chord",
   "css": "css/style.css",
   "repository": "git://github.com/0xfe/vexchords.git",
   "keywords": [
@@ -22,7 +22,6 @@
     "assert": "*"
   },
   "dependencies": {
-    "jquery": "^1.9.1",
     "raphael": "^2.1.2"
   }
 }

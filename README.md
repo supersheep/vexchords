@@ -11,7 +11,7 @@ Include the file `js/chord.js`.
     var chord = new ChordBox(paper, 30, 30);
 
     # Draw an open D7
-    chord.setChord("[[1, 2], [2, 1], [3, 2], [4, 0], [5, "x"], [6, "x"]]")
+    chord.setChord([[1, 2], [2, 1], [3, 2], [4, 0], [5, "x"], [6, "x"]])
     chord.draw()
 
 Parameters to setChord:
