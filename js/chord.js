@@ -179,3 +179,7 @@ ChordBox.prototype.lightBar = function(string_from, string_to, fret_num) {
 
   return this;
 }
+
+if(typeof exports == "object"){
+  module.exports = ChordBox;
+}

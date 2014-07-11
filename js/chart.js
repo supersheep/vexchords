@@ -5,6 +5,11 @@
  * Requires: chord.js
  * Requires: Raphael JS (raphaeljs.com)
  */
+
+var Raphael = window.Raphael || require('raphael');
+var $ = window.jQuery || require('jquery');
+var ChordBox = window.ChordBox || require('./chord');
+
 var chord_chart = [
   { section: "Open Chords",
     description: "These chords are played in open position, and generally " +
@@ -325,6 +330,7 @@ function createSectionElement(section_struct) {
 }
 
 function createShapeChart(keys, container, shapes, shape) {
+  container = $(container);
   for (var i = 0; i < keys.length; ++i) {
     var key = keys[i];
     var section = createSectionElement({
@@ -339,5 +345,14 @@ function createShapeChart(keys, container, shapes, shape) {
 
     container.append(section);
   }
+}
+
+if(typeof exports == "object"){
+  exports.chord_chart = chord_chart;
+  exports.createChordStruct = createChordStruct;
+  exports.createChordElement = createChordElement;
+  exports.createSectionElement = createSectionElement;
+  exports.createShapeChart = createShapeChart;
+  exports.Chord = ChordBox;
 }
 

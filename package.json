@@ -1,0 +1,21 @@
+{
+  "name": "vexchords",
+  "version": "0.1.0",
+  "description": "JavaScript Guitar Chord Generation Library",
+  "main": "./js/index",
+  "repository": "git://github.com/supersheep/vexchords.git",
+  "keywords": [
+    "chord",
+    "guitar",
+    "canvas"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "supersheep",
+    "email": "supersheepxjy@gmail.com"
+  },
+  "bugs": {
+    "url": "http://github.com/supersheep/vexchords/issues"
+  },
+  "homepage": "http://github.com/supersheep/vexchords"
+}

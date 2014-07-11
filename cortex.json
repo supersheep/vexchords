@@ -1,0 +1,28 @@
+{
+  "name": "vexchords",
+  "version": "0.1.0",
+  "description": "JavaScript Guitar Chord Generation Library",
+  "main": "./js/chart",
+  "css": "css/style.css",
+  "repository": "git://github.com/0xfe/vexchords.git",
+  "keywords": [
+    "chord",
+    "guitar",
+    "canvas"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "0xfe"
+  },
+  "bugs": {
+    "url": "http://github.com/0xfe/vexchords/issues"
+  },
+  "homepage": "http://my.vexflow.com/",
+  "devDependencies": {
+    "assert": "*"
+  },
+  "dependencies": {
+    "jquery": "^1.9.1",
+    "raphael": "^2.1.2"
+  }
+}
